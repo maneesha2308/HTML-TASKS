@@ -8,10 +8,11 @@
      <style>
         .container{
             border: 10px solid black;
-            height: 80vh;
-            width: 30%;
+            height: 70vh;
+            width: 20%;
             border-radius: 20px;
             margin: auto;
+            padding-bottom: 0px;
         }
         .child1{
             height: 10%;
@@ -21,16 +22,16 @@
             text-align: right;
             font-size:x-large;
             -webkit-text-fill-color:white;
-            padding-inline-end: 10px;
+            padding-top:10px;
         
 
         }
         .child2{
-            border: 2px solid red;
-            height: 70%;
+            border: 2px solid wheat;
+            height: 75%;
             overflow:auto;
             scrollbar-width: none;
-            background: bisque;
+            background:wheat;
         }
         .right{
             text-align: right;
@@ -42,7 +43,7 @@
             width:40%;
         }
         span{
-            background:white;
+            background: white;
             padding: 8px;
             border-radius: 10px;
         }
@@ -56,12 +57,14 @@
             border-radius: 10px;
         }
         .child3{
-            border-radius: 10px;
-            background:lightgray;
-            padding: 10px;
-            text-align:left;
-
+            padding: 5px;
+            margin: 5px;
+            margin-bottom: 10px;
+            height:8%;
+            background-color:whitesmoke;
+            border-radius: 20px;
             
+    
         }
         .b{
             text-align: center;
@@ -72,6 +75,8 @@
 <body>
     <div class="container">
         <div class="child1">
+        <i class="fa-solid fa-arrow-left" style="margin-right: 200px;"> </i>
+        <i class="fa-solid fa-user" style="padding-right: 100px;"></i>
         <i class="fa-solid fa-video"></i>
         <i class="fa-solid fa-phone"></i>
         <i class="fa-solid fa-ellipsis-vertical"></i></div>
@@ -312,13 +317,14 @@
              <div class="date">01-01=2025</div>
         </div>
         <div class="child3">
-         <span>
-        <i class="fa-regular fa-face-smile"></i>messege
-        <i class="fa-solid fa-link"></i>
-        <i class="fa-solid fa-indian-rupee-sign"></i>
-        <i class="fa-solid fa-camera"></i>
-        </span>
-        <i class="fa-solid fa-microphone"></i>
+         
+        <i class="fa-regular fa-face-smile" style="margin-right: 10px;""></i>
+        <input type="text" value="message" style="background-color: white; padding-left:5px;border-radius: 8px;margin-top: 1%;width: 80px;margin-left:2px;color:black; height: 20px; padding-right: 30px;">
+        <i class="fa-solid fa-link" style="margin-left:10px;"></i>
+        <i class="fa-solid fa-indian-rupee-sign" style="margin-left: 10px;"></i>
+        <i class="fa-solid fa-camera" style="margin-left:15px; margin-right: 10px;"></i>
+        
+        <i class="fa-solid fa-microphone" style="margin-left: 10;"></i>
         </div>
         <div class="child4"></div>
    </div>     

@@ -4,107 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexlayout</title>
-    <style>
-         .container1{
-            display: flex;
-            padding: 30px;
-            justify-content: space-around;
-            align-items: center;
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-         }
-         .container2{
+    <style>
+        .container{
+            width: 90%;
+            height: 90vh;
+            margin: auto;
             display: flex;
-            padding: 30px;
-            justify-content: space-around;
-            align-items: center;
-         }
-         .a{
-            padding: 20px; 
-            padding-right: 90px;
-            margin: 40px;
-            /*text-align:;*/
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+         .child1{
+            width: 25%;
+            height: 35vh;
+            margin-top: 20px;
+            border-radius: 10px;
+            padding: 8px;
+            transition: 1s;
             box-shadow: 0px 0px 6px 6px gray ;
             
          }
-         .b{
-            padding: 20px;
-            margin: 40px;
-            padding-right: 90px;
-            
-            box-shadow: 0px 0px 6px 6px gray;
-            
+         #child1{
+            display: flex;
+            margin-bottom: 30px;
          }
-         .c{
-            padding: 20px;
-            margin: 40px;
-            padding-right: 90px;
-            box-shadow: 0px 0px 6px 6px gray ;
-            
+         ul{
+             list-style-type: none;
+             line-height: 0.2;
          }
-        .d{
-            padding: 20px;
-            margin: 40px;
-            padding-right: 90px;
-            box-shadow: 0px 0px 6px 6px gray;
-            
-        }
-        .e{
-            padding: 20px;
-            margin: 40px;
-            padding-right: 90px;
-            box-shadow: 0px 0px 6px 6px gray ;
-            
-        }
-        .f{
-            padding: 20px;
-            margin: 40px;
-            padding-right: 90px;
-            box-shadow: 0px 0px 6px 6px gray ;
-            
-        }
-        .p{
-            text-align: right;
-        }
         
     </style>
 </head>
 <body>
     
-        <div class="container1">
-               <div class="a">
-                <img src="https://cdn.iconscout.com/icon/free/png-256/free-stripe-logo-icon-download-in-svg-png-gif-file-formats--flat-social-media-branding-pack-logos-icons-498440.png" width="50px">
-                <b>Stripe</b>
-                <p>payment services</p>
-                <b>Get more context on your users with 
-                    <br>stripe data inside our platform</b>
-                </div>
-                <div class="b">
-                <img src="https://static-00.iconduck.com/assets.00/mailchimp-icon-2048x2048-isefig92.png" width="50px">
-                <b>Mailchimp</b>
-                <p>Project Management</p>
-                </div>
-                <div class="c">
-                <img src="https://e7.pngegg.com/pngimages/448/866/png-clipart-dropbox-computer-icons-material-miscellaneous-blue-thumbnail.png" width="50px">
-                <b>Dropbox</b>
-                <p>File Management</p>
-                </div>
+    <div class="container">
+        <div class="child1">
+            <div id="child1">
+                <img src="https://avatars.githubusercontent.com/u/856813?s=280&v=4" style="width:8vw">
+                <ul>
+                    <h2>Stripe</h2>
+                    <h3>Payment Services</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </ul>
+            </div>
+                <span style="word-spacing: 2px;"><h3>Get more context on your users with stripe data inside our platform.</h3></span>
+                installed 172 times
+                <span style="padding-left: 150px; color: blue;">View></span>
+            </div>
+        <div class="child1">
+            <div id="child1">
+                <img src="https://www.drupal.org/files/project-images/MC_Logo_0.jpg" style="width:8vw">
+                 <ul>
+                    <h2>Mailchimp</h2>
+                    <h3>Project Management</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </ul>
+            </div>
+                <span style="word-spacing: 2px;"><h3>Capture and sync subscribes rom your mailchimp platform to ours with ease.</h3></span>
+                installed 1234 times
+                <span style="padding-left: 150px; color: blue;">View></span>
         </div>
-        <div class="container2">
-               <div class="d">
-                <img src="https://www.delogico.com/shopify.svg" width="50px">
-                <b>Shopify</b>
-                <p>Ecommerce</p>
+          
+        <div class="child1">
+            <div id="child1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4s3ECJJwiCX0hLvu4r9XHOEXMjqhxJ6T-PQ&s" style="width:8vw">
+                <ul>
+                    <h2>Dropbox</h2>
+                    <h3>File Management</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </ul>
+            </div>
+                    <span style="word-spacing: 2px;"><h3>Use dropbox to sync your photos to our platform and share it with osthers.</h3></span>
+                    installed 1234 times
+                    <span style="padding-left: 150px; color: blue;">View></span>
+         </div>     
+         <div class="child1">
+            <div id="child1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6onG0BTCip21uyKDKTTaMVp62LNJYTLV5A&s" style="width:8vw">
+                <ul>
+                    <h2>Shopify</h2>
+                    <h3>Ecommerce</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </ul>
+            </div>
+                <span style="word-spacing: 2px;"><h3>Sell your items with ease with having any website with our free platform.</h3></span>
+                installed 1234 times
+                <span style="padding-left: 150px; color: blue;">View></span>
+            </div>
+            
+            
+
+            <div class="child1">
+                <div id="child1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnjyq37mdiucAe3nNR8bKrgBFG4LdRZZMLUg&s" style="width:8vw">
+                    <ul>
+                        <h2>Atlassian</h2>
+                        <h3>Project Management</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </ul>
                 </div>
-                <div class="e">
-                <img src="https://cdn.prod.website-files.com/6640cd28f51f13175e577c05/664e006b3c877701bf3cc5f4_6c3b0d9f-a7c9-5970-941e-d866def1bb87.svg" width="50px">
-                <b>Atlassian</b>
-                <p>Project Management</p>
+                    <span style="word-spacing: 2px;"><h3>Developing products for developers,project managers and architects.</h3></span>
+                    installed 345 times
+                    <span style="padding-left: 150px; color: blue;">View></span>
                 </div>
-                <div class="f">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAx4OMNKDO78w1GtSY9IKw8zy3RPjRMbWyg&s" width="50px">    
-                <b>Salceforce</b>
-                <p>Project Management</p>
-                </div>
-        </div>
+
+
+
+
+                <div class="child1">
+                    <div id="child1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAx4OMNKDO78w1GtSY9IKw8zy3RPjRMbWyg&s" style="width:8vw">
+                        <ul>
+                            <h2>Salceforce</h2>
+                            <h3>Project Management</h3>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </ul>
+                    </div>
+                        <span style="word-spacing: 2px;"><h3>Developing products for developers,project managers and architects.</h3></span>
+                        installed 345 times
+                        <span style="padding-left: 150px; color: blue;">View></span>
+                    </div>
+       
+    
+
+
+
+
+
+
 </body>
 </html>
