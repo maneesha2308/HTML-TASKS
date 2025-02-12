@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        
+        
+        .container1{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 20px;
+            justify-content: space-around;
+            position:sticky;
+            top:0%;
+            background-color: white;
+
+        }
+        .container2{
+             display: grid;
+             justify-content: center;
+             grid-gap:10px;
+             grid-template-columns: auto auto auto auto;
+             width: 60%;
+             margin: auto;
+             padding: 10px;
+             row-gap: 50px;
+             
+        }
+        
+        .container3{
+            display: grid;
+            justify-content: center;
+            grid-gap:2px;
+            margin: auto;
+            grid-template-columns: auto auto auto auto auto auto;
+            padding: 30px;
+        }
+        .container4{
+            justify-content: center;
+            grid-template-columns: auto;
+            margin:auto;
+            padding: 20px;
+        }
+        .container5{
+             justify-content: center;
+             width: 60%;
+             margin: auto;
+             padding: 50px;
+        }
+        .container6{
+            display: grid;
+            grid-gap:10px;
+            grid-template-columns: auto auto auto;
+            justify-content: space-evenly;
+            margin: auto;
+            width: 80%;
+            row-gap: 10px;
+        }
+    
+        .a:hover{
+             transform: scale(1.1);
+             background-color: lightgray;
+        }
+        
+        
+    </style>
+</head>
+<body>
+     
+    <div class="container1">
+
+        <div>
+            <i class="fa-solid fa-bars" style="font-size: 40px;"></i>
+        </div>
+        <div style="font-size: 30px;">MyFood</div>
+        <div style="font-size: 30px;">Mail</div>
+        
+    </div>
+    
+    <div class="container2">
+        <div>
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg"  width="300px">
+            <center><h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+        </div>
+        <div>  
+            <img src="https://www.w3schools.com/w3images/steak.jpg" width="300px">
+           <center> <h3>Let Me Tell You About This Steak</h3>
+           <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+    
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" width="300px">
+           <center><h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            <p>What else?</p></center>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/wine.jpg" width="300px">
+            <center><h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+        </div>   
+
+
+    
+        <div>
+            <img src="https://www.w3schools.com/w3images/popsicle.jpg" width="300px">
+            <center><h3>All I Need Is a Popsicle</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+        </div>
+        <div>  
+            <img src="https://www.w3schools.com/w3images/salmon.jpg" width="300px">
+            <center><h3>Salmon For Your Skin</h3>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" width="300px">
+            <center><h3>The Perfect Sandwich, A Real Classic</h3>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/croissant.jpg" width="300px">
+           <center><h3>Le French</h3>
+            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></center>
+        </div>
+        
+    </div>
+
+
+
+
+    <div class="container3">
+        <button style="background-color:white; font-size: 30px; -webkit-text-fill-color: black; border-color: white;">  
+            <a href="#" style="text-decoration: none;">«</a>
+        </button>
+        <button style="background-color:white; font-size: 30px; -webkit-text-fill-color: black; border-color: white;">
+            <a href="#" style="text-decoration: none;">1</a>
+        </button>
+        <button style="background-color:white; font-size: 30px; -webkit-text-fill-color: black; border-color: white;">
+            <a href="#" style="text-decoration: none;">2</a>
+        </button>
+        <button style="background-color:white; font-size: 30px; -webkit-text-fill-color: black; border-color: white;">
+            <a href="#" style="text-decoration: none;">3</a>
+        </button>
+        <button style="background-color:white; font-size: 30px; -webkit-text-fill-color: black; border-color: white;">
+            <a href="#" style="text-decoration: none;">4</a>
+        </button>
+        <button style="background-color:white; font-size: 30px; -webkit-text-fill-color: black; border-color: white;">
+            <a href="#" style="text-decoration: none;">»</a>
+        </button>
+    </div>
+     <hr style="color: lightslategray;" width="80%">
+
+    <div class="container4">
+        <div><center><h2>About Me, The Food Man</h2></center>
+        </div>
+        <div style="padding-left:350px;">
+            <img src="https://www.w3schools.com/w3images/chef.jpg">
+        </div>
+    </div>
+    <div class="container5">
+    <center>
+        <div>
+           <b> I am Who I Am!</b><br> <br>With Passion For Real, Good Food Just me, myself and I, exploring the universe of unknownment.
+            I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. 
+            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum.
+            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+        </div>
+    </center>
+    </div>
+
+    <hr style="color: lightslategray;" width="80%">
+
+    <div class="container6">
+        <div>
+            FOOTER<br>
+            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo 
+            <br>condimentum, porta lectus vitae, ultricies congue 
+            <br>gravida diam non fringilla.<br>
+            <br>
+            Powered by w3.css
+        </div>
+        <div>
+            <div class="a">
+            <img src="https://www.w3schools.com/w3images/workshop.jpg" width="60px">
+            Lorem
+            <br> Sed mattis nunc
+            <br></div>
+            <div class="a">
+            <hr style="color:lightslategray;">
+            <img src="https://www.w3schools.com/w3images/gondol.jpg" width="60px">
+             Ipsum
+            <br>Praes tinci sed
+             </div>
+        </div>
+
+        <div>
+             <b>POPULAR TAGS</b>
+             <br>
+
+             <div>
+             <button style="background-color: lightgray;">Travel</button>
+             <button style="background-color: lightgray;">New York </button>
+             <button style="background-color: lightgrey;">Dinner </button>
+             <button style="background-color: lightgrey;">Ideas </button>
+             <button style="background-color: lightgrey;">Salmon </button>
+             <button style="background-color: lightgrey;">France</button>
+             </div>
+             <div>
+             <button style="background-color: lightgrey;">Drinks </button>
+             <button style="background-color: lightgrey;">Flavors </button>
+             <button style="background-color: lightgrey;">Cuisine</button>
+             <button style="background-color: lightgrey;">Chicken</button>
+             <button style="background-color: lightgrey;">Dressing </button>
+             <button style="background-color: lightgrey;">Fried</button>
+             </div>
+             <button style="background-color: lightgrey;">Fish</button>
+             
+             <button style="background-color: lightgrey;">Duck</button>
+             
+        </div>
+    </div>
+    
+</body>
+</html>
