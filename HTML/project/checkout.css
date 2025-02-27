@@ -1,0 +1,39 @@
+.checkb{
+    display: flex;
+    justify-content: space-around;
+}
+.checkout{
+    background-color: gray;
+    height: 26vh;
+}
+.cartsum{
+    font-size: 25px;background-color: brown;
+}
+.cartsum1{
+    font-size: 18px;
+}
+.suba{
+    padding: 5px;
+    font-size: 17px;
+}
+.subb{
+    margin-left: 100px;
+    font-size: 17px;
+}
+.sub2a{
+    font-weight: bold;
+}
+.sub2b{
+    font-weight: bold;
+    margin-left:120px ;
+}
+.sub3a{
+font-size: 20px;
+}
+.sub3b{
+    font-size: 20px;
+    margin-left: 130px;
+    }
+    .subbtn2{
+        margin-top: 30px;
+    }

@@ -1,0 +1,55 @@
+.shopimg{
+    height: 5vh;
+}
+td{
+    padding: 10px;
+    color: palevioletred;
+    font-weight: 800;
+}
+.shopcart{
+    display: flex;
+    justify-self: center;
+    gap: 50px;
+}
+.shopcartb{
+    background-color: whitesmoke;
+    border: 1px solid black;
+   height: 18vh;
+}
+.cartsum{
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 5px;
+}
+.suba{
+    padding: 10px;
+    font-size: 18px;
+}
+.subb{
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.sub1a{
+    padding: 10px;
+    font-size: 18px;
+}
+.sub1b{
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.sub2a{
+    padding: 10px;
+    font-size: 18px;
+}
+.sub2b{
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.subbtn{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
