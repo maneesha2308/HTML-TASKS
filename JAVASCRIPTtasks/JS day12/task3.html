@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Change text content: Select an element and 
+      change its text content using textContent or innerHTML.-->
+     
+      <!-- Element with text content -->
+     <p id="myParagraph">This is the original text.</p>
+
+       <!-- Button to change the text content -->
+        <button onclick="changeTextContent()">Change Text Content</button>
+      <script>
+                  function changeTextContent() {
+        // Select the element by ID
+        var element = document.getElementById("myParagraph");
+
+        // Change the text content using textContent
+        element.textContent = "This is the new text using textContent.";
+
+        // Alternatively, you can use innerHTML to change the text content
+        // element.innerHTML = "This is the new text using innerHTML.";
+    }
+      </script>
+</body>
+</html>

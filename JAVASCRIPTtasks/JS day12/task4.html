@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create and Append Element</title>
+</head>
+<body>
+          <!--Create and append an element: Write a script that
+         creates a new p element and appends it to a div.-->
+
+<!-- Div element to append the new p element to -->
+<div id="myDiv">
+    <h2>This is a div element</h2>
+</div>
+
+<!-- Button to create and append the p element -->
+<button onclick="createAndAppendElement()">Create and Append p Element</button>
+
+   <script>
+      function createAndAppendElement() {
+        // Create a new p element
+        var newParagraph = document.createElement("p");
+        
+        // Set the text content for the new p element
+        newParagraph.textContent = "This is a new paragraph element added dynamically.";
+        
+        // Select the div element where the new p element will be appended
+        var divElement = document.getElementById("myDiv");
+        
+        // Append the new p element to the div
+          divElement.appendChild(newParagraph);
+    }
+    </script>
+
+</body>
+</html>

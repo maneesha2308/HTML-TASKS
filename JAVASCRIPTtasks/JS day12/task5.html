@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove an Element</title>
+</head>
+<body>
+    <!--Remove an element: Select an element by its id 
+    and remove it from the DOM.-->
+
+<!-- Element to be removed -->
+<p id="myParagraph">This is a paragraph that will be removed when the button is clicked.</p>
+
+<!-- Button to remove the paragraph -->
+<button onclick="removeElement()">Remove Paragraph</button>
+
+<script>
+    function removeElement() {
+        // Select the element by its ID
+        var element = document.getElementById("myParagraph");
+        
+        // Remove the selected element from the DOM
+        element.remove();
+    }
+</script>
+
+</body>
+</html>

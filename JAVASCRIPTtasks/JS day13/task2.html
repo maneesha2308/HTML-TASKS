@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color:black;
+            color:white;
+            padding:20px
+        }
+        .demo{
+            display:none;
+        }
+
+        body>div{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>primary heading</h1>
+    <button onclick="show()">show</button>
+    <button onclick="hide()">hide</button>
+    <script>
+        /*Dynamic class manipulation: Write a function that adds or removes
+        a class from an element when a button is clicked.*/
+ 
+        function show(){
+            let heading=document.querySelector("h1");
+            heading.classList.remove("demo")
+        }
+        
+        function hide(){
+           let heading=document.querySelector("h1");
+           heading.classList.add("demo")
+         }
+        
+    </script>
+    
+</body>
+</html>

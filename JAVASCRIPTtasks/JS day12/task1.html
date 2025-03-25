@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Element with a specific ID -->
+    <div id="myDiv">
+    This is a div element.
+    </div>
+
+     <!-- Button to change the background color -->
+     <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+    <script>
+        /* Select an element by ID: Write a script that selects an element
+          with a specific id and changes its background color.*/
+
+        function changeBackgroundColor() {
+        var element = document.getElementById("myDiv");
+        // Change the background color of the element
+        element.style.backgroundColor = "lightblue";
+    }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style an Element</title>
+</head>
+<body>
+   <!--Style an element: Use JavaScript to modify the
+ CSS style of an element (e.g., change the font size, color, or margin).   -->
+<!-- Element to be styled -->
+<p id="myParagraph">This is a paragraph. Click the button to change its style.</p>
+
+<!-- Button to change the style of the paragraph -->
+<button onclick="styleElement()">Change Style</button>
+
+<script>
+    function styleElement() {
+        // Select the element by its ID
+        var element = document.getElementById("myParagraph");
+
+        // Modify the CSS styles using JavaScript
+        element.style.fontSize = "24px";        // Change font size
+        element.style.color = "blue";           // Change font color
+        element.style.margin = "20px";          // Change margin
+    }
+</script>
+
+</body>
+</html>

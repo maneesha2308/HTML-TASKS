@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*find the even and odd numbers in an array [12,3,5,6,22,56,29] 
+and print the evenarray,oddarray,evensum and oddsum*/
+        // Create the original array
+        let numbers = [12, 3, 5, 6, 22, 56, 29];
+
+       // Initialize arrays for even and odd numbers
+       let evenArray = [];
+       let oddArray = [];
+
+       // Initialize variables to store the sums of even and odd numbers
+       let evenSum = 0;
+       let oddSum = 0;
+
+       // Iterate through the array and classify the numbers as even or odd
+       for (let i = 0; i < numbers.length; i++) {
+       if (numbers[i] % 2 === 0) {
+        // If the number is even, push it to evenArray and add to evenSum
+        evenArray.push(numbers[i]);
+        evenSum += numbers[i];
+        } else {
+        // If the number is odd, push it to oddArray and add to oddSum
+        oddArray.push(numbers[i]);
+        oddSum += numbers[i];
+       }
+    }
+
+        // Log the results to the console
+        console.log("Even numbers:", evenArray);
+        console.log("Odd numbers:", oddArray);
+        console.log("Sum of even numbers:", evenSum);
+        console.log("Sum of odd numbers:",oddSum);
+
+    </script>
+</body>
+</html>

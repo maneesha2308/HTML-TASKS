@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Visibility Using Class</title>
+    <style>
+        /* Define a hidden class to hide elements */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Button to toggle visibility -->
+<button onclick="toggle()">Toggle</button>
+
+<!-- Div element to toggle visibility -->
+<div id="myDiv">
+    Content
+</div>
+
+<script>
+    function toggle() {
+        var element = document.getElementById("myDiv");
+        element.classList.toggle("hidden"); // Toggle the 'hidden' class
+        element.style.background="red";
+    }
+</script>
+
+</body>
+</html>

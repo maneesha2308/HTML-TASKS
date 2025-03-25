@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Using slice
+Objective: Extract a portion of an array without modifying the original array.
+Task: Create an array of the days of the week. Use the slice method to create a new array that contains only the weekdays.
+Expected Output: Display the original array and the new array.*/
+             // Create an array of the days of the week
+let daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+// Display the original array
+console.log("Original array:", daysOfWeek);
+
+// Use slice to create a new array containing only the weekdays (Monday to Friday)
+let weekdays = daysOfWeek.slice(1, 6); // Extracts elements from index 1 to 5 (Monday to Friday)
+
+// Display the new array
+  console.log("Weekdays array:", weekdays);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         h1{
+            background-color:black;
+            color:white;
+            padding:20px
+        }
+        
+    </style>
+</head>
+<body>
+
+    
+      <h1>primary heading</h1>
+    <button onclick="show()">toggle</button>
+
+
+    <script>
+
+       /*Toggle visibility: Create a button that toggles 
+         the visibility of an element by showing/hiding it on each click.*/
+
+        let flag=true;
+        function show(){
+            let heading=document.querySelector("h1");
+              if(flag){
+                 heading.classList.add("demo")
+              flag=false;
+
+            }else{
+                heading.classList.remove("demo");
+               flag=true;
+            }
+             console.log(flag)
+        }
+
+
+
+
+    </script>
+    
+</body>
+</html>

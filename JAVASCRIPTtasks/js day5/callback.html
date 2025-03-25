@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         function apple(a){
+              console.log("eating apple")
+              a(orange)
+         }
+
+         function banana(b){
+              console.log("eating banana")
+              b(grapes)
+         }
+
+         function orange(c) {
+             console.log("eating orange")
+             c()
+         }
+
+         function grapes(){
+            console.log("eating grapes")
+         }
+
+         apple(banana)
+
+
+    </script>
+</body>
+</html>
